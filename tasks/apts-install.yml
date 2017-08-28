@@ -1,0 +1,17 @@
+---
+- name: Install apts pre-reqs
+  apt:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - apt-transport-https
+    - git
+    - sudo
+    - wget
+    - curl
+    - unzip
+    - net-tools
+    - gnupg2
+    - software-properties-common
+    - python-pip
+...

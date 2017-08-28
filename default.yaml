@@ -1,0 +1,10 @@
+--
+- hosts: localhost
+  vars:
+    domain: "example.com"
+    domains: "0.0.0.0"
+    tls_off:
+      - "tls off"
+  tasks:
+  - include: tasks/main.yml
+...

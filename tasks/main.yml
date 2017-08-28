@@ -1,0 +1,9 @@
+---
+- include: apts-install.yml
+- include: aptAdditions.yml
+- include: docker-install.yml
+- include: docker-py.yml
+- include: docker-machine.yml
+- include: docker-compose.yml
+- include: main_caddy.yml
+...
